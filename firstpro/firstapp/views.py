@@ -3,6 +3,7 @@ import datetime
 from django.http import HttpResponse
 # Create your views here.
 def date_time_info(request):
+    print('Hii I am Ajeet')
     msg='<h1> Hello guys Very'
     date=datetime.datetime.now()
     hr=int(date.strftime('%H'))
